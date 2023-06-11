@@ -1,0 +1,26 @@
+.button {
+    border-radius: 30px;
+    background-color: #B31312;
+    transition: all .5s;
+    cursor: pointer;
+    box-shadow: 0px 0px 19px 0px #FEA1A1;
+    p {
+        color: #EEE2DE;
+        margin-bottom: 0;
+        transition: .5s;
+        font-weight: 600;
+    }
+    &:hover {
+        background-color: #EA906C;
+        box-shadow: 0px 0px 82px 19px #FEA1A1;
+        p {
+            color: #2B2A4C;
+        }
+    }
+}
+
+.background {
+    background-color: #2B2A4C;
+    height: 100vh;
+    width: 100%;
+}
