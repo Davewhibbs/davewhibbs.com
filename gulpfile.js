@@ -7,7 +7,7 @@ const rename = require('gulp-rename');
 
 gulp.task('styles', function() {
     return gulp
-        .src('src/scss/styles.scss') // Path to your main SCSS file
+        .src('src/sass/styles.scss') // Path to your main SCSS file
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer(), cssnano()]))
         .pipe(rename('styles.min.css')) // Output filename
@@ -15,5 +15,9 @@ gulp.task('styles', function() {
 });
 
 gulp.task('watch', function() {
-    gulp.watch('src/scss/**/*.scss', gulp.series('styles'));
+    gulp.watch('src/sass/**/*.scss', gulp.series('styles'));
 });
+
+
+
+gulp.task('default', gulp.series(['styles']));
