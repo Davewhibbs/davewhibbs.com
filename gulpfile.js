@@ -11,7 +11,7 @@ gulp.task('styles', function() {
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([autoprefixer(), cssnano()]))
         .pipe(rename('styles.min.css')) // Output filename
-        .pipe(gulp.dest('dist/css')); // Output directory
+        .pipe(gulp.dest('src/css')); // Output directory
 });
 
 gulp.task('watch', function() {
