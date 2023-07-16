@@ -1,0 +1,27 @@
+.sections {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    section {
+        height: 100vh;
+        width: 100vw;
+        scroll-snap-align: start;
+        &.home {
+            background-color: $bg-1;
+            color: black;
+        }
+        &.projects {
+            background-color: $bg-2;
+            color: white;
+        }
+        &.info {
+            background-color: $bg-3;
+            color: white;
+        }
+        &.contact {
+            background-color: $bg-4;
+            color: white;
+        }
+    }
+}
