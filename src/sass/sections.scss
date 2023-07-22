@@ -9,19 +9,15 @@
         scroll-snap-align: start;
         &.home {
             background-color: $bg-1;
-            color: black;
         }
         &.projects {
-            background-color: $bg-2;
-            color: white;
+            background-color: $bg-4;
         }
         &.info {
-            background-color: $bg-3;
-            color: white;
+            background-color: $bg-1;
         }
         &.contact {
             background-color: $bg-4;
-            color: white;
         }
     }
 }
