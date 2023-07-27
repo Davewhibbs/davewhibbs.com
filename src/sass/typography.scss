@@ -15,6 +15,11 @@ h2 {
 }
 
 p {
-    font-size: 48px;
+    font-size: 24px;
     font-family: simpletix;
+
+    @media (min-width: 768px) {
+
+        font-size: 48px;
+    }
 }

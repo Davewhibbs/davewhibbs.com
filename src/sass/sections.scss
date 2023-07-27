@@ -28,7 +28,7 @@
             background-color: $color_orange;
 
             &:hover{
-                background-color: $color_orange_hover;
+                background-color: $color_light_green_hover;
             }
 
         }
@@ -36,14 +36,14 @@
             background-color: $color_red;
 
             &:hover {
-                background-color: $color_red_hover;
+                background-color: $color_light_green_hover;
             }
         }
         &.contact {
             background-color: $color_dark_purple;
 
             &:hover{
-                background-color: $color_dark_purple_hover;
+                background-color: $color_light_green_hover;
             }
         }
 
