@@ -1,0 +1,56 @@
+.sections {
+
+
+
+    section {
+
+        width: 100%;
+        height: 11vh;
+        cursor: pointer;
+        transition: all .5s;
+        &.home {
+            background-color: $color_eggshell;
+
+            h1 {
+                color: $color_light_green;
+            }
+            p {
+                color: $color_light_green;
+            }
+
+            #logo {
+                height: auto;
+                width: 33vw;
+            }
+
+        }
+        &.projects {
+            background-color: $color_orange;
+
+            &:hover{
+                background-color: $color_light_green_hover;
+            }
+
+        }
+        &.info {
+            background-color: $color_red;
+
+            &:hover {
+                background-color: $color_light_green_hover;
+            }
+        }
+        &.contact {
+            background-color: $color_dark_purple;
+
+            &:hover{
+                background-color: $color_light_green_hover;
+            }
+        }
+
+
+        &.expand {
+            height: 67vh;
+            cursor: auto;
+        }
+    }
+}

@@ -1,2 +1,1 @@
-import 'gulpfile.js';
-import 'js/*';
+import "letterAnimation";

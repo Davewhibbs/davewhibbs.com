@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 628.3 314.1">
+  <g id="Logo">
+    <g>
+      <rect x="135.47" y="135.45" width="148" height="148" transform="translate(-86.75 209.46) rotate(-45)" fill="#283618"/>
+      <rect x="345.06" y="135.18" width="148" height="148" transform="translate(-25.18 357.59) rotate(-45)" fill="#283618"/>
+      <rect x="240.24" y="30.65" width="148" height="148" transform="translate(18.04 252.85) rotate(-45)" fill="#606c38"/>
+      <rect x="449.65" y="30.92" width="148" height="148" transform="translate(79.19 401.01) rotate(-45)" fill="#606c38"/>
+      <rect x="499.74" y="25.17" width="47.63" height="47.38" transform="translate(118.8 384.52) rotate(-45)" fill="#fefae0"/>
+      <rect x="267.76" y="38.69" width="93.6" height="93.34" transform="translate(31.77 247.43) rotate(-45)" fill="#fefae0"/>
+      <rect x="30.65" y="30.92" width="148" height="148" transform="translate(-43.54 104.73) rotate(-45)" fill="#606c38"/>
+      <rect x="81.05" y="25.04" width="47.38" height="47.63" transform="translate(-3.87 88.37) rotate(-45)" fill="#fefae0"/>
+    </g>
+  </g>
+</svg>
