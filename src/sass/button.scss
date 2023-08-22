@@ -1,14 +1,45 @@
-.button {
-    border-radius: 30px;
-    background-color: #B31312;
-    color: #EEE2DE;
-    &.hover {
-        background-color: #EA906C;
-        color: #2B2A4C;
-    }
-}
+.btn {
+    width: 75%;
+    border: none;
+    border-radius: 50px;
+    background-color: $color_light_green;
+    font-size: 25px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    color: $color_eggshell;
+    font-family: simpletix;
+    font-weight: 500;
 
-.background {
-    background-color: #2B2A4C;
-    color: black;
+
+    @media (min-width: 768px) {
+        height: 100px;
+
+    }
+
+
+
+
+
+
+
+    &:hover {
+        background-color: $color_eggshell;
+        border: 2px solid $color_light_green;
+        color: $color_light_green;
+        box-shadow: 0px 0px 10px 0px $color_dark_green;
+    }
+
+    &:active, &:focus, &:focus-within {
+        background-color: $color_dark_green !important;
+        color: $color_eggshell !important;
+        border: 10px solid $color_eggshell !important;
+        box-shadow: none;
+    }
+
+
+
+
 }

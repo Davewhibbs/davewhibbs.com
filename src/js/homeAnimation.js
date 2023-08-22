@@ -1,4 +1,5 @@
-//import "homeAnimation";
+
+
 gsap.to(".home-title", {
     duration: 1,
     opacity: 1,
