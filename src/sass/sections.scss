@@ -5,8 +5,11 @@ section {
 
     &.header {
         padding-top: 150px;
-        padding-bottom: 150px;
         background-color: $color_light_green;
+
+        b {
+            color: $color_dark_green;
+        }
 
         h1 {
             color: $color_eggshell;
@@ -24,34 +27,63 @@ section {
 
         h2 {
             color: $color_light_green;
-
+            margin-bottom: 2rem;
+            font-size: 40px;
         }
 
         h3 {
             color: $color_light_green;
+            margin-bottom: 2rem;
 
         }
 
         p {
             color: $color_light_green;
+            margin-bottom: 0;
         }
     }
 
     &.job-role {
         background-color: $color_light_green;
-        h1 {
+        h2 {
             color: $color_eggshell;
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
         }
 
         p {
-            margin-bottom: 3rem;
+            margin-bottom: 2rem;
             color: $color_eggshell;
         }
     }
 
     &.recent-work {
         background-color: $color_eggshell;
+
+        h2 {
+            color: $color_light_green;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            color: $color_light_green;
+        }
+        .work-item {
+            p {
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+                color: $color_light_green;
+                font-weight: 600;
+            }
+
+            a {
+                display: block;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+        }
 
     }
 

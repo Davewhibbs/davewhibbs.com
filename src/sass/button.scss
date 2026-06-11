@@ -47,17 +47,67 @@
     color: black;
 }
 
-.discover-button {
-    background: transparent;
-    border: 2px solid $color_eggshell;
+.down-arrow {
+    fill: $color_eggshell;
+    height: 50px;
+    display: block;
+    transform: translateY(-3px);
+
+}
+
+.green-button {
+    display: block;
+    max-width: fit-content;
+
+    background: $color_light_green;
+    border: 3px solid $color_light_green;
     color: $color_eggshell;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 10px;
     transition: all .3s ease-in-out;
     display: block;
     margin: auto;
     max-width: fit-content;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Source Sans 3", sans-serif;
+
+    svg {
+        display: inline;
+        fill: $color_eggshell;
+        width: 15px;
+        transition: all .3s ease-in-out;
+        margin-left: 10px;
+        transform: translateY(-2px);
+    }
+
+    &:hover {
+        color: $color_light_green;
+    background-color: $color_eggshell;
+
+        svg {
+            fill: $color_light_green;
+        }
+    }
+
+}
+
+
+.eggshell-button {
+    background: transparent;
+    border: 3px solid $color_eggshell;
+    color: $color_eggshell;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    display: block;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    max-width: fit-content;
+    font-family: "Source Sans 3", sans-serif;
 
     &:hover {
         color: $color_light_green;
@@ -65,3 +115,4 @@
     }
 
 }
+
