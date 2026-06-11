@@ -12,3 +12,22 @@
     background-color: #2B2A4C;
     color: black;
 }
+
+.discover-button {
+    background: transparent;
+    border: 2px solid $color_eggshell;
+    color: $color_eggshell;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    display: block;
+    margin: auto;
+    max-width: fit-content;
+
+    &:hover {
+        color: $color_light_green;
+        background-color: $color_eggshell;
+    }
+
+}

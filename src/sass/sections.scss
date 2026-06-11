@@ -1,56 +1,70 @@
-.sections {
+section {
 
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+    &.header {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        background-color: $color_light_green;
 
-    section {
-
-        width: 100%;
-        height: 11vh;
-        cursor: pointer;
-        transition: all .5s;
-        &.home {
-            background-color: $color_eggshell;
-
-            h1 {
-                color: $color_light_green;
-            }
-            p {
-                color: $color_light_green;
-            }
-
-            #logo {
-                height: auto;
-                width: 33vw;
-            }
-
-        }
-        &.projects {
-            background-color: $color_orange;
-
-            &:hover{
-                background-color: $color_light_green_hover;
-            }
-
-        }
-        &.info {
-            background-color: $color_red;
-
-            &:hover {
-                background-color: $color_light_green_hover;
-            }
-        }
-        &.contact {
-            background-color: $color_dark_purple;
-
-            &:hover{
-                background-color: $color_light_green_hover;
-            }
+        h1 {
+            color: $color_eggshell;
+            margin-bottom: 3rem;
         }
 
-
-        &.expand {
-            height: 67vh;
-            cursor: auto;
+        p {
+            margin-bottom: 3rem;
+            color: $color_eggshell;
         }
+    }
+
+    &.discover {
+        background-color: $color_eggshell;
+
+        h2 {
+            color: $color_light_green;
+
+        }
+
+        h3 {
+            color: $color_light_green;
+
+        }
+
+        p {
+            color: $color_light_green;
+        }
+    }
+
+    &.job-role {
+        background-color: $color_light_green;
+        h1 {
+            color: $color_eggshell;
+            margin-bottom: 3rem;
+        }
+
+        p {
+            margin-bottom: 3rem;
+            color: $color_eggshell;
+        }
+    }
+
+    &.recent-work {
+        background-color: $color_eggshell;
+
+    }
+
+}
+
+footer {
+    background-color: $color_dark_green;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    p, a {
+        text-align: center;
+        color: $color_eggshell;
+        margin: 0;
+    
     }
 }
